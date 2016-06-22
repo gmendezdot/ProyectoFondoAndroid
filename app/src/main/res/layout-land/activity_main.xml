@@ -32,7 +32,7 @@
         android:drawableBottom="@color/colorPrimaryDark"
         android:width="20dp"
         android:textColor="@android:color/white"
-
+        android:background="@drawable/rectangulo"
         app:layout_constraintLeft_toLeftOf="@+id/activity_main"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"

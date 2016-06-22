@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="@+id/activity_main"
         app:layout_constraintRight_toRightOf="@+id/activity_main"
         app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintVertical_bias="0.17000002" />
 
     <Button
         android:text="@string/app_boton1"
@@ -41,6 +41,9 @@
         android:layout_marginTop="88dp"
         app:layout_constraintRight_toRightOf="@+id/activity_main"
         android:layout_marginRight="16dp"
-        android:layout_marginEnd="16dp" />
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintVertical_bias="0.25" />
 
 </android.support.constraint.ConstraintLayout>
